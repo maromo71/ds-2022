@@ -40,14 +40,11 @@ public class Main {
             System.out.println(num3 + "\n");
             if(totalDeAcertos==3){
                 System.out.println("Estorou a banca, pegue a GRANA alta");
-                break;
             }else{
                 if(totalDeAcertos==2){
                     System.out.println("Seu prêmio é de R$ " + aposta * 500);
-                    break;
                 }else{
                     System.out.println("Você dançou!! A banca ganhou sua grana");
-                    break;
                 }
             }
         }while(credito > 0);
