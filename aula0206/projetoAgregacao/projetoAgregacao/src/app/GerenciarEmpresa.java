@@ -4,6 +4,8 @@ import modelo.Departamento;
 import modelo.Endereco;
 import modelo.Funcionario;
 
+import java.util.Random;
+
 public class GerenciarEmpresa {
     public static void main(String[] args) throws InterruptedException {
         //Um Departamento
@@ -35,8 +37,12 @@ public class GerenciarEmpresa {
         //Funcionario Juca entrada no servico
         funcionario.registrarEntrada();
 
-        Thread.sleep(10000);
-        funcionario.registrarSaida();
+        //Thread.sleep(10000);
+       // funcionario.registrarSaida();
+
+        System.out.println("Brincando com o tempo: ");
 
     }
+
+
 }

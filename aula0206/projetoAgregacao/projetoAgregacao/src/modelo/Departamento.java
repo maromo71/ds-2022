@@ -1,5 +1,7 @@
 package modelo;
 
+import java.util.Random;
+
 public class Departamento {
     private int codDepto;
     private String descricao;
@@ -19,4 +21,6 @@ public class Departamento {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
+
+
 }
